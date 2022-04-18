@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Tickets Registration</title>
+        <style type="text/css">
+            .heading {
+                background-color: red;
+                border: 1px solid;
+                text-align: center;
+                margin: 10px;
+                padding: 10px;
+            }
+            ul {
+                background-color: #ccc;
+                border: 1px solid;
+                width: 700px;
+                margin: 10px auto;
+            }
+            li {
+               list-style: none;
+               padding: 5px;
+               margin: 5px;
+               border: 1px solid #ccc;
+
+            }
+            img {
+                width: 650px;
+                height: 300px;
+                margin: 10px;
+               
+            }
+        </style>
+    </head>
+    <body>
+        <form action="http://abcd.com" method="GET">
+            <div class="heading">Welcome to Book my Show</div>
+            <ul>
+                <img src="https://static.businessworld.in/article/article_extra_large_image/1609147522_O1aw88_BMS.jpg" />;
+                <li>
+                    <label for="uname">Enter Username: </label><input type="Text" name="uname" >
+                </li>
+                <li>
+                <label for="Mobile Number">Mobile Number: </label><input type="number" name="Mobile Number">
+                </li>
+                <li>
+                    Enter user Password: <input type="Password" name="">
+                </li>
+                <li>
+                    Gender: <input type="radio" name="abc"> Female <input type="radio" name="abc"> male 
+                </li>
+                <li>
+                    Languages: 
+                    <input type="Checkbox" >English
+                    <input type="Checkbox" >Hindi
+                    <input type="Checkbox" >Telugu
+                </li>
+                <li>
+                    State  Name: 
+                    <select>
+                        <option>Andhra Pradesh</option>
+                        <option>Tamilnadu</option>
+                        <option>Maharashtra</option>
+                        <option>Karnataka</option>
+                    </select>
+                </li>
+                <li style="text-align:center">
+                    <input type="Submit" value="User Registration" >
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>
